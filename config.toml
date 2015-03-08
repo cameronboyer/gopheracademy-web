@@ -1,7 +1,7 @@
-baseurl = "http://blog.gopheracademy.com"
+baseurl = "http://blog.cwestb.com"
 languageCode = "en-us"
-title = "Gopher Academy Blog"
-disqusShortname = "gopheracademy"
+title = "Sally Hagy-Boyer's Blog"
+disqusShortname = "shbartist"
 [taxonomies]
    author = "authors"
    series = "series"

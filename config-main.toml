@@ -1,10 +1,10 @@
-baseurl = "http://www.gopheracademy.com"
+baseurl = "http://www.cwestb.com"
 languageCode = "en-us"
-title = "Gopher Academy | Home"
+title = "Sally Hagy-Boyer | Home"
 contentdir = "content"
 layoutdir = "layouts-main"
 publishdir = "public-main"
-disqusShortname = "gopheracademy"
+disqusShortname = "shbartist"
 [taxonomies]
    author = "authors"
    series = "series"

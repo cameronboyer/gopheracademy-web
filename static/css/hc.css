@@ -88,12 +88,12 @@ p
   transition:all .5s ease 0
 }
 
-.navbar 
+.navbar
 {
   display: none;
 }
 
-.navbar a 
+.navbar a
 {
   text-decoration: none;
   border-bottom: 0px #b1b1b1 solid;
@@ -138,7 +138,7 @@ hr {
   color: #333;
   font-weight: 350;
   font-size: 16px;
- 
+
 }
 
 .sidebar-nav li a
@@ -152,7 +152,7 @@ hr {
 .sidebar-nav li a:hover
 {
   color: red;
-  
+
   text-decoration:underline;
   transition:color .6s ease 0;
 
@@ -278,6 +278,14 @@ pre
 
 #social-wrapper a.icon-social.rss {
 	background-image: url(../images/icon-rss.png);
+}
+
+#social-wrapper a.icon-social.facebook {
+	background-image: url(../images/icon-facebook.png);
+}
+
+#social-wrapper a.icon-social.google {
+	background-image: url(../images/icon-google.png);
 }
 
 #social-wrapper a
@@ -503,7 +511,7 @@ img
   padding-bottom:30px
 }
 
-#content-font 
+#content-font
 {
   font-size: 18px;
 }
@@ -830,7 +838,7 @@ time2
 .inset {
   padding: 15px;
 }
-.navbar 
+.navbar
 {
   display: inherit;
   background-color: #fff;
@@ -855,10 +863,10 @@ time2
 
 @media screen and (max-width: 400px) {
 
-  
+
 
   #welcome-greeting h2 {
-   font-size: 15px; 
+   font-size: 15px;
    transition: all 0.2s ease 0s;
    font-weight: 200;
    line-height: 30px;
@@ -925,28 +933,28 @@ time2
     right: 30px;
     display: none;
     text-indent: -9999px;
-    background: url('../Images/scollrocket.png') no-repeat;
-  
+    background: url('../Images/uparrow.png') no-repeat ;
+
 }
- 
+
  .newCredit{
  	margin-top: 60px;
  	display: block;
  }
  .newCredit p {
  	 font-size: 11px;
- 	 text-align: center; 	
+ 	 text-align: center;
  }
  .newCredit p a {
  	 color:#666;
- 	 	
+
  }
  .newCredit p span {
  	 font-size: 12px;
  	 color:#ef6133;
- 	 	
+
  }
- 
+
 #series-meta {
   font-size: 16px;
 }

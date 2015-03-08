@@ -5,7 +5,7 @@
   <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ .Description }}">
-  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="GopherAcademy Blog" />
+  <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Sally Hagy-Boyer Blog" />
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/hc.css" rel="stylesheet">
   <link href="/js/highlight/styles/github.css" rel="stylesheet">
@@ -16,27 +16,28 @@
       <![endif] d-->
     </head>
     <body>
-<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Gopher Academy </div>	
+<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i>Sally Hagy-Boyer</div>
       <div id = "wrapper">
 <div class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
-        <a href="/"><img src="/images/gopheracademy-logo_sm.png" alt="" /></a>
+        <a href="/"><img src="/images/cat-logo.jpg" alt="" /></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          
+
         </div>
-        
+
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav ">
-          <li class="smallmenu"><a  href="/post/">Categories</a></li>
-          <li class="smallmenu"><a href="http://www.gopheracademy.com">Gopher Academy</a></li>
-          <li class="smallmenu"><a href="http://www.gophercon.com">GopherCon</a></li> 
-          
+          <li class="smallmenu"><a href="/picture/">Art</a></li>
+          <li class="smallmenu"><a href="/shows/">Exhibitions</a></li>
+          <li class="smallmenu"><a  href="/statement/">Statement</a></li>
+
+
           <hr />
       {{ range $name, $taxonomy := .Site.Taxonomies.series}}
       <script type="text/javascript">
@@ -52,19 +53,11 @@
         document.write(str2);
         document.write('</a></li>');
       </script>
-        
+
       {{ end }}
 
-          <form name="google-search" method="get" action="http://www.google.com/search">
 
-            <div class="post_search input-group">
-              <input type="hidden" name="sitesearch" value="blog.gopheracademy.com">
-              <input type="text" name="q" class="form-control">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </div>
-          
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -75,25 +68,16 @@
        <!-- Sidebar -->
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav nav nav-pills nav-stacked">
-          <li class="sidebar-brand"><a href="/"><img src="/images/gopheracademy-logo.png" srcset="/images/gopheracademy-logo.png 1x, /images/gopheracademy-logo-2x.png 2x" width="140" height="145" alt="" /></a></li>
-          <hr /> 
-					<form name="google-search" method="get" action="http://www.google.com/search">
+          <li class="sidebar-brand"><a href="/"><img src="/images/cat-logo.jpg" srcset="/images/cat-logo.jpg 1x, /images/cat-logo.jpg 2x" width="140" height="145" alt="" /></a></li>
 
-	          <div class="post_search input-group">
-							<input type="hidden" name="sitesearch" value="blog.gopheracademy.com">
-              <input type="text" name="q" class="form-control">
-	            <span class="input-group-btn">
-	              <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-	            </span>
-	          </div>
-					</form>
 
-          <hr /> 
-          <li class=""><a  href="/post/">Categories</a></li>
-          <li class=""><a href="http://www.gopheracademy.com">Gopher Academy</a></li>
-          <li class=""><a href="http://www.gophercon.com">GopherCon</a></li>      
 
-		      <hr />
+          <hr />
+          <li class=""><a href="/picture/">Art</a></li>
+          <li class=""><a href="/shows/">Exhibitions</a></li>
+          <li class=""><a  href="/statement/">Statement</a></li>
+
+
 			{{ range $name, $taxonomy := .Site.Taxonomies.series}}
       <script type="text/javascript">
         function titleize(slug) {
@@ -108,41 +92,28 @@
         document.write(str2);
         document.write('</a></li>');
       </script>
-				
+
 			{{ end }}
           <hr />
 		<div id="social-wrapper">
-			<a class="icon-social twitter" href="https://twitter.com/gopheracademy" target="_blank"></a>
-			<a class="icon-social github" href="https://github.com/gopheracademy" target="_blank"></a>
-			<a class="icon-social slack" href="http://bit.ly/go-slack-signup" target="_blank"></a>
+			<a class="icon-social twitter" href="https://twitter.com/sallyhagyboyer" target="_blank"></a>
+      <a class="icon-social facebook" href="https://www.facebook.com/sally.hagyboyer" target="_blank"></a>
+      <a class="icon-social google" href="https://plus.google.com/u/0/105655247103932215382/about" target="_blank"></a>
+
 			<a class="icon-social rss" href="/rss.xml" target="_blank"></a>
-		</div> 
-		<!-- BOTTOM CREDITS -->
-		<div class="newCredit">
-			<p class="text-muted ">{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}} Gopher Academy, LLC 2013
-				<br />
-				Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> 
-				<br />
-				Designed by <a href="http://www.ardanstudios.com/" target="_blank">Ardan Studios</a>
-				{{end}}
-			</p>
-		<div>
-		<!-- / END BOTTOM CREDITS -->
-           
+		</div>
+
+
         </ul>
-        
-     
-   
-       	
-       	
-       	
+
+
+
+
+
+
      </div>
 
-		
- 		
- 
+
+
+
      <div class="container">
-     
-     
-
-
