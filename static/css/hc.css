@@ -288,6 +288,10 @@ pre
 	background-image: url(../images/icon-google.png);
 }
 
+#social-wrapper a.icon-social.instagram {
+	background-image: url(../images/icon-instagram.png);
+}
+
 #social-wrapper a
 {
   font-size:15px;
@@ -933,7 +937,7 @@ time2
     right: 30px;
     display: none;
     text-indent: -9999px;
-    background: url('../Images/uparrow.png') no-repeat ;
+    background: url('../images/uparrow.png') no-repeat ;
 
 }
 
