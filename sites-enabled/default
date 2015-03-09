@@ -1,6 +1,6 @@
 server {
 	listen 80 default_server;
-	root /app;
+	root /public;
 	index index.html index.htm;
 
 	# Make site accessible from http://localhost/

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pictures on Sally Hagy-Boyer&#39;s Blog</title>
+    <link>http://localhost:1313/picture/</link>
+    <description>Recent content in Pictures on Sally Hagy-Boyer&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2015 18:28:12 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/picture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://localhost:1313/picture/first/</link>
+      <pubDate>Sun, 08 Mar 2015 18:28:12 -0400</pubDate>
+      
+      <guid>http://localhost:1313/picture/first/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/art/Houseitssupposedtobe.jpg&#34; alt=&#34;First Picture&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
